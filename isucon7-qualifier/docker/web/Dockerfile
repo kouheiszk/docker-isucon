@@ -11,8 +11,7 @@ FROM nginx:1.10
 
 COPY --from=build-dev /isubata /home/isucon/isubata
 #COPY --from=build-dev /isubata/files/app/nginx.conf /etc/nginx/conf.d/isucon.conf
-COPY nginx.conf /etc/nginx/nginx.conf
-COPY isucon.conf /etc/nginx/conf.d/isucon.conf
+
 RUN \
   apt-get update && \
   apt-get install -y wget unzip
@@ -24,3 +23,6 @@ RUN \
 RUN \
   rm -f /var/log/nginx/access.log && \
   rm -f /var/log/nginx/error.log
+
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY isucon.conf /etc/nginx/conf.d/isucon.conf
