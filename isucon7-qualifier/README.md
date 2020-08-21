@@ -49,13 +49,13 @@ docker-compose exec db bash
 
 ### チューニングの仕方
 
-- [isucon/isucon7-qualify](https://github.com/isucon/isucon7-qualify/) をfork
+- [isucon/isucon7-qualify](https://github.com/kouheiszk/isucon7-qualify/) をfork
 - docker-compose.yml内の `GIT_URL` パラメータを自分のリポジトリに書き換える
 - `docker-compose up -d --build app`
 
 ## References
 
-- [isucon/isucon7-qualify](https://github.com/isucon/isucon7-qualify)
+- [isucon/isucon7-qualify](https://github.com/kouheiszk/isucon7-qualify)
 - [matsuu/vagrant-isucon](https://github.com/matsuu/vagrant-isucon)
 - [matsuu/ansible-isucon](https://github.com/matsuu/ansible-isucon)
 

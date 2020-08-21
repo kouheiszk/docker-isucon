@@ -66,7 +66,7 @@ docker-compose exec mysql bash
 
 - [ISUCON4(2014) オンライン予選レギュレーション](http://isucon.net/archives/39979344.html)
 - [ISUCON4 予選当日マニュアル](https://gist.github.com/mirakui/e394ed543415852d34a6)
-- [isucon/isucon4](https://github.com/isucon/isucon4)
+- [isucon/isucon4](https://github.com/kouheiszk/isucon4)
 - [matsuu/vagrant-isucon](https://github.com/matsuu/vagrant-isucon)
 - [matsuu/ansible-isucon](https://github.com/matsuu/ansible-isucon)
 

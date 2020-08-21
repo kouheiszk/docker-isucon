@@ -10,7 +10,7 @@ RUN \
   echo '%wheel ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers && \
   ( \
       cd /tmp && \
-      git clone https://github.com/isucon/isucon4.git && \
+      git clone https://github.com/kouheiszk/isucon4.git && \
       cp /tmp/isucon4/qualifier/ami/files/nginx.conf /etc/nginx/nginx.conf && \
       cp /tmp/isucon4/qualifier/ami/files/nginx.php.conf /etc/nginx/nginx.php.conf && \
       cp /tmp/isucon4/qualifier/ami/files/my.cnf /etc/my.cnf \
